@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mExplore"
+        android:icon="@drawable/baseline_location_on"
+        android:title="Explore"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mGO"
+        android:icon="@drawable/baseline_commute"
+        android:title="GO"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mSaved"
+        android:icon="@drawable/baseline_bookmark"
+        android:title="Saved"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mContribute"
+        android:icon="@drawable/baseline_add_circle"
+        android:title="Contribute"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mUpdates"
+        android:icon="@drawable/baseline_notifications"
+        android:title="Updates"
+        app:showAsAction="ifRoom" />
+
+
+</menu>
